@@ -40,8 +40,12 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
 import { LoginComponent } from './views/login/login.component';
 import { RegisterComponent } from './views/register/register.component';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
+  exports: [
+    MatTableModule
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

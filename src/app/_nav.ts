@@ -25,6 +25,11 @@ export const navItems: INavData[] = [
     name: 'Main',
   },
   {
+    name: 'Table',
+    url: '/main/table',
+    icon: 'icon-pie-chart'
+  },
+  {
     title: true,
     name: 'Extras',
   },
